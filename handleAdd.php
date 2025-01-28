@@ -15,6 +15,9 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 
     $destination="upload/".$name;
 
+
+
+
    
 
     $check="SELECT * FROM `user2` WHERE user_name='$username'";
